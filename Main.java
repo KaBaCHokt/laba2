@@ -127,12 +127,12 @@ public class Main {
         Point point1 = new Point(scanner.nextInt(), scanner.nextInt());
         System.out.println(point1);
 
-        // Создаем и выводим на экран точку с координатами 25;6
+        
         System.out.println("Введите координаты точки (X Y):");
         Point point2 = new Point(scanner.nextInt(), scanner.nextInt());
         System.out.println(point2);
 
-        // Создаем и выводим на экран точку с координатами 7;8
+       
         System.out.println("Введите координаты точки (X Y):");
         Point point3 = new Point(scanner.nextInt(), scanner.nextInt());
         System.out.println(point3);
@@ -140,12 +140,12 @@ public class Main {
 
         System.out.println();
         System.out.println("Задание 4.7");
-        System.out.println("Создаем студента Вася с оценками: 3, 4, 5");
+        System.out.println("Создаем студента с оценками: 3, 4, 5");
         student vasya2 = new student("Вася", 3, 4, 5);
         System.out.println(vasya2);
 
-        // Создаем студента Максим без оценок
-        System.out.println("Создаем студента Максим без оценок");
+        
+        System.out.println("Создаем студента без оценок");
         student maxim = new student("Максим");
         System.out.println(maxim);
 
@@ -163,7 +163,7 @@ public class Main {
         System.out.println("Средний балл: " + vasya3.getAverageGrade());
         System.out.println("Отличник: " + (vasya3.isExcellentStudent() ? "Да" : "Нет"));
 
-        // Создаем студента Петю с оценками 5, 5, 5, 5
+        
         System.out.println("Введите имя студента  и его оценки (через пробел):");
         String petyaName = scanner.next();
         int[] petyaGrades = new int[4];
